@@ -6,8 +6,8 @@ def introduction(name)
   # name will serve as a local variable inside of our method body
 end
 
-def introduction_with_language(language, name = "+Ember.js,Dan")
-puts name + ',' + language  
+def introduction_with_language(language, name)
+puts (name = "Dan") + ',' + (language = "Ember.js" 
 end 
 
 
